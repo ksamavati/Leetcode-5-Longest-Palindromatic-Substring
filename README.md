@@ -1,4 +1,6 @@
-# 5. Longest Palindromic Substring (from Leetcode.com)
+My submission for the following challenge on Leetcode.com:
+
+# 5. Longest Palindromic Substring
 
 Difficulty: Medium
 
