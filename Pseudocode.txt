@@ -1,0 +1,14 @@
+let output = "";
+
+loop through each letter
+	// Check for odd-numbered palindromes
+	check if chars on both sides are same, if yes, odd-digit palindrome present,
+		--loop and check letters farther adjacent until non-match
+		--if thisPalindrome.length > output.length { longestPalindrome = thisPalindrome }
+
+	// Check for even-numbered palindromes
+	check if next letter is same letter, if yes, even-numbered palindrome present
+		--loop and check letters farther adjacent until non-match
+		--if thisPalindrome.length > output.length { longestPalindrome = thisPalindrome }
+
+return output
