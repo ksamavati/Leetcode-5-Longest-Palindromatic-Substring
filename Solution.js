@@ -26,11 +26,15 @@ var longestPalindrome = function (s) {
 
 const getPalindromeFromCenter = (left, right, s) => {
   let output = "";
+  // While the outermost characters match
   while (s.charAt(left) == s.charAt(right) && left >= 0 && right < s.length) {
+    // Add them to the output string
     output = s.substring(left, right + 1);
+    // And check the next set of 2 outer characters
     left--;
     right++;
   }
+  // Return the string when a non-match is found
   return output;
 };
 
